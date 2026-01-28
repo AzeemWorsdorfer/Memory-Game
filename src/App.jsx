@@ -1,4 +1,4 @@
-import { GameHeader } from "./components/Gameheader";
+import { GameHeader } from "./components/GameHeader";
 
 function App() {
   return (
