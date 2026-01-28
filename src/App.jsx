@@ -1,6 +1,11 @@
+import { GameHeader } from "./components/Gameheader";
+
 function App() {
-  return <>Hello world</>;
-  
+  return (
+    <div className="app">
+      <GameHeader />
+    </div>
+  );
 }
 
-export default App
+export default App;
