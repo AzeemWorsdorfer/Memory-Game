@@ -1,16 +1,97 @@
-# React + Vite
+# 🎮 Memory Card Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and engaging memory card game built with React. The goal is to test and improve your memory by finding all the matching pairs of cards.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Classic Gameplay**: Flip cards to find matching pairs.
+- **Move & Score Tracking**: Keep track of your moves and score as you play.
+- **Reset Functionality**: Start a new game at any time with the "New Game" button.
+- **Win Celebration**: A congratulatory message appears when you've successfully matched all the pairs.
+- **Modern Tech Stack**: Built with React and functional components using Hooks.
 
-## React Compiler
+## 🚀 Getting Started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Follow these instructions to get a copy of the project up and running on your local machine.
 
-## Expanding the ESLint configuration
+### Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Make sure you have Node.js and npm (or yarn) installed on your machine.
+
+### Installation
+
+1.  Clone the repository to your local machine:
+    ```sh
+    git clone <your-repository-url>
+    ```
+2.  Navigate into the project directory:
+    ```sh
+    cd Memory-Game
+    ```
+3.  Install the required dependencies:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+The application should now be running in your web browser.
+
+## 룰 How to Play
+
+1.  Click on any card to flip it over and reveal its symbol.
+2.  Click on a second card to try and find its match.
+3.  If the two cards match, they will stay face up.
+4.  If they do not match, they will be flipped back over after a short delay.
+5.  Continue until you have matched all the pairs on the board to win the game!# 🎮 Memory Card Game
+
+A simple and engaging memory card game built with React. The goal is to test and improve your memory by finding all the matching pairs of cards.
+
+This project was created for practice, following the ["Build 3 React Projects in 4 hours | ReactJS Course For Beginners" tutorial by PedroTech on YouTube](https://www.youtube.com/watch?v=b9eMGE7gYfM). [1]
+
+## ✨ Features
+
+- **Classic Gameplay**: Flip cards to find matching pairs.
+- **Move & Score Tracking**: Keep track of your moves and score as you play.
+- **Reset Functionality**: Start a new game at any time with the "New Game" button.
+- **Win Celebration**: A congratulatory message appears when you've successfully matched all the pairs.
+- **Modern Tech Stack**: Built with React and functional components using Hooks.
+
+## 🚀 Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have Node.js and npm (or yarn) installed on your machine.
+
+### Installation
+
+1.  Clone the repository to your local machine:
+    ```sh
+    git clone <your-repository-url>
+    ```
+2.  Navigate into the project directory:
+    ```sh
+    cd Memory-Game
+    ```
+3.  Install the required dependencies:
+    ```sh
+    npm install
+    ```
+4.  Start the development server:
+    ```sh
+    npm run dev
+    ```
+
+The application should now be running in your web browser.
+
+## 룰 How to Play
+
+1.  Click on any card to flip it over and reveal its symbol.
+2.  Click on a second card to try and find its match.
+3.  If the two cards match, they will stay face up.
+4.  If they do not match, they will be flipped back over after a short delay.
+5.  Continue until you have matched all the pairs on the board to win the game!
